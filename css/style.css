@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #212121;
+}
+
+input[type="button"]{text-align: center;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+  width: 200px;
+  height: 50px;
+  background: #38aab7;
+  border-radius: 3px;
+  font-family: Arial;
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+  border: 0px solid #fff;
+  text-shadow: 0 1px 0 #0055A1; font-family: Courier New; 
+}
+
+input[type="button"]:hover{
+  background-color:cadetblue;
+}
+
+input[type="button"]:focus{
+  outline: none;
+}
+
+
+#credits {color: #38aab7 ; background-color: white; font-family: Courier New; font-size: 20px;display: block;
